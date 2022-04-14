@@ -40,4 +40,4 @@ Created in 2022 by Enio Carboni
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE (see LICENSE file)
+GNU GENERAL PUBLIC LICENSE (see [LICENSE](LICENSE) file)
