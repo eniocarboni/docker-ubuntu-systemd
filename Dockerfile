@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        software-properties-common \
-       rsyslog systemd systemd-cron sudo \
+       rsyslog dbus systemd systemd-cron sudo \
     && apt-get clean \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && rm -rf /var/lib/apt/lists/* \
