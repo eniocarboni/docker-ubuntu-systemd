@@ -8,6 +8,7 @@ Ubuntu 18.04 LTS Docker container with systemd, useful for tests with `ansible` 
 
   - `20.04`, `focal` `latest` on main branch
   - `18.04`, `bionic` on 18.04 branch
+  - `16.04`, `xenial` on 16.04 branch
 
 
 ## How to Build
@@ -15,6 +16,7 @@ Ubuntu 18.04 LTS Docker container with systemd, useful for tests with `ansible` 
   * Verify if [Docker is installed](https://docs.docker.com/install/).
   * Run on main branch: `docker build -t docker-ubuntu-systemd:20.04 -t docker-ubuntu-systemd:latest .`
   * Run on 18.04 branch: `docker build -t docker-ubuntu-systemd:18.04 -t docker-ubuntu-systemd:bionic .`
+  * Run on 16.04 branch: `docker build -t docker-ubuntu-systemd:16.04 -t docker-ubuntu-systemd:xenial .`
   * Verify image: `docker images`
 
 ## How to Use
