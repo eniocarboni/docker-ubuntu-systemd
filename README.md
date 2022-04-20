@@ -1,8 +1,8 @@
-# Ubuntu 20.04 LTS Docker Image with systemd
+# Ubuntu 18.04 LTS Docker Image with systemd
 
-[![Build](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
+[![Build](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml/badge.svg?branch=18.04)](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
 
-Ubuntu 20.04 LTS Docker container with systemd, useful for tests with `ansible` especially with `molecule`
+Ubuntu 18.04 LTS Docker container with systemd, useful for tests with `ansible` especially with `molecule`
 
 ## Tags
 
