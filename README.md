@@ -1,13 +1,14 @@
-# Ubuntu 18.04 LTS Docker Image with systemd
+# Ubuntu 16.04 LTS Docker Image with systemd
 
-[![Build](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml/badge.svg?branch=18.04)](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
+[![Build](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml/badge.svg?branch=16.04)](https://github.com/eniocarboni/docker-ubuntu-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
 
-Ubuntu 18.04 LTS Docker container with systemd, useful for tests with `ansible` especially with `molecule`
+Ubuntu 16.04 LTS Docker container with systemd, useful for tests with `ansible` especially with `molecule`
 
 ## Tags
 
   - `20.04`, `focal` `latest` on main branch
   - `18.04`, `bionic` on 18.04 branch
+  - `16.04`, `xenial` on 16.04 branch
 
 
 ## How to Build
@@ -15,6 +16,7 @@ Ubuntu 18.04 LTS Docker container with systemd, useful for tests with `ansible` 
   * Verify if [Docker is installed](https://docs.docker.com/install/).
   * Run on main branch: `docker build -t docker-ubuntu-systemd:20.04 -t docker-ubuntu-systemd:latest .`
   * Run on 18.04 branch: `docker build -t docker-ubuntu-systemd:18.04 -t docker-ubuntu-systemd:bionic .`
+  * Run on 16.04 branch: `docker build -t docker-ubuntu-systemd:16.04 -t docker-ubuntu-systemd:xenial .`
   * Verify image: `docker images`
 
 ## How to Use

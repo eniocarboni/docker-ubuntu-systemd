@@ -1,8 +1,10 @@
-FROM ubuntu:18.04
+FROM ubuntu:16.04
 LABEL maintainer="Enio Carboni"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+# trick to make the service systemd-localed.service work and consequently also localectl
+RUN touch /etc/default/keyboard
 # Install: dependencies, clean: apt cache, remove dir: cache, man, doc, change mod time of cache dir.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \

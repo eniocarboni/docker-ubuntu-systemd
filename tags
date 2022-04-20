@@ -1,1 +1,1 @@
-tags=eniocarboni/docker-ubuntu-systemd:18.04,eniocarboni/docker-ubuntu-systemd:bionic
+tags=eniocarboni/docker-ubuntu-systemd:16.04,eniocarboni/docker-ubuntu-systemd:xenial
