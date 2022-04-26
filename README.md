@@ -9,7 +9,7 @@ Ubuntu 20.04 LTS Docker container with systemd, useful for tests with `ansible` 
   - `22.04`, `jammy`, `latest` on main branch
   - `20.04`, `focal`  on 20.04 branch
   - `18.04`, `bionic` on 18.04 branch
-  - `16.04`, `bionic` on 16.04 branch
+  - `16.04`, `xenial` on 16.04 branch
 
 
 ## How to Build
